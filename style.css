@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;700&display=swap');
+
+/* Padrão */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+nav{
+    background-color: rgb(200, 243, 245);
+}
+
+/* Body */
+.container{
+    min-width: 100vw;
+    background-color: azure;
+}
+
+/* Parte UM */
+.parteUM{
+    height: 56vh;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sobre{
+    border: 1px solid rgba(128, 128, 122, 0.529);
+    text-align: center;
+    width: 20vw;
+    border-radius: 10px;
+    font-family: 'Roboto Mono', monospace;
+    padding: 10px;
+}
+.slides{
+    display: block;
+    padding: 40px;
+    max-width: 40rem;
+}
+.slides img{
+    height: 40vh;
+    min-width: 40rem;
+    max-width: 40rem;
+}
+
+/*Cards*/
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+.card:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+/* Footer */
+footer{
+    background-color: rgb(200, 243, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 8vh;
+}
+footer a img{
+    height: 2vh; 
+}
+footer a img:hover{
+    transition: 0.4s;
+    height: 3vh;
+}
